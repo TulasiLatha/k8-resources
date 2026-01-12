@@ -10,4 +10,7 @@ spec:
       request:
        memory: "68Mi"
        cpu: "100m" #1/10th of pr
-       
+      #provide equal or mor ethan the requests
+      limits:
+        memory: "100Mi"
+        cpu: "120Mi"
